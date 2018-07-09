@@ -1,5 +1,5 @@
 ## Automatic initialization of endoscope in canonical coordinate frame given endoscopic video frame
-#### This software allows a user to generate data simulating a moving endoscope in a textured nasal cavity (or other anatomy) mesh and to train a neural network to learn the regions in which the endoscope must be located to generate particular images.
+This software allows a user to generate data simulating a moving endoscope in a textured nasal cavity (or other anatomy) mesh and to train a neural network to learn the regions in which the endoscope must be located to generate particular images.
 
 
 **Dependencies**:
