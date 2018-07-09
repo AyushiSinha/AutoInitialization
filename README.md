@@ -1,11 +1,13 @@
 ## Automatic initialization of endoscope in canonical coordinate frame given endoscopic video frame
-This software allows a user to generate data simulating a moving endoscope in a textured nasal cavity (or other anatomy) mesh and to train a neural network to learn the regions in which the endoscope must be located to generate particular images.
+#### This software allows a user to generate data simulating a moving endoscope in a textured nasal cavity (or other anatomy) mesh and to train a neural network to learn the regions in which the endoscope must be located to generate particular images.
 
 
 **Dependencies**:
-- OpenGL: pip install PyOpenGL PyOpenGL_accelerate
-- TriMesh: pip install trimesh
-- PIL: pip install Pillow
+- [OpenGL](https://pypi.org/project/PyOpenGL/): pip install PyOpenGL PyOpenGL_accelerate
+- [TriMesh](https://trimsh.org/): pip install trimesh
+- [PIL](http://www.pythonware.com/products/pil/): pip install Pillow
+- [Torch](https://pypi.org/project/torchvision/): pip install torchvision
+- [Scikit-image](http://scikit-image.org/): pip install scikit-image
 
 
 **Run**:
